@@ -2,7 +2,7 @@ import inspect
 from functools import partial
 from typing import Any, Awaitable, Callable, Optional, Set, Type, TypeVar, Union
 
-from apiclient import APIClient
+from apiclient.client import APIClient
 from pydantic import AfterValidator, BaseModel, ConfigDict
 from pydantic._internal import _generate_schema, _typing_extra
 from pydantic._internal._config import ConfigWrapper
